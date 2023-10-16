@@ -4,15 +4,13 @@
     margin: 0;
 }
 body {
-    margin: 0;
-    padding: 0;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     font-size: 16px;
     background-color: rgb(153, 153, 223);
-    
+
 }
 h1, h2, h3, h4, h5, h6, p, a {
     margin: 0;
@@ -42,6 +40,10 @@ a {
 .logo {
     margin-right: 200px;
     filter: blur(0px);
+    transition: transform .7s ease-in-out;
+}
+.logo:hover {
+    transform: rotate(360deg);
 }
 .btn {
     margin-left: 300px;
@@ -63,8 +65,8 @@ a {
     transition: all 0.5s ease-out;
 }
 .menu-list li {
-    transition: border-bottom 0.3s ease; /* Apply transition to border-bottom */
-    border-bottom: 2px solid transparent; /* Set an initial transparent border */
+    transition: border-bottom 0.3s ease; 
+    border-bottom: 2px solid transparent; 
 }
 .menu-list li:hover {
     border-bottom: 2px solid #ffffff;
