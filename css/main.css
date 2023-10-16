@@ -25,25 +25,13 @@ a {
 .header {
     padding-top: 40px;
     background: url('../img/photo-1540575467063-178a50c2df87.jpg') no-repeat center top / cover;
-    position: relative;
     height: 100vh;
 }
-.header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: inherit;
-    filter: blur(5px);
-    z-index: 0;
-}
-.container {
-    margin-inline: 5%;
-    display: flex;
-    justify-content: center;
 
+.container {
+    max-width: 1315px;
+    margin: 0 auto;
+    width: 100%;
 }
 .menu {
     display: flex;
@@ -52,22 +40,59 @@ a {
     
 }
 .logo {
-    margin-right: 165px;
+    margin-right: 200px;
     filter: blur(0px);
 }
 .btn {
-    margin-left: 150px;
+    margin-left: 300px;
     width: 183px;
     text-decoration: none;
     border-radius: 50px;
-    background: linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    background-color: #7C6AFA;
     padding: 10px 30px;
     text-align: center;
-    color: #ffffff;
-    transition: 0.s all ease;
+    transition: all 0.7s ease;
+}
+.btn:hover {
+    background-color: #C89AFC;  
 }
 .menu-list {
     display: flex;
     list-style-type: none;
     gap: 56px;
+    transition: all 0.5s ease-out;
+}
+.menu-list li {
+    transition: border-bottom 0.3s ease; /* Apply transition to border-bottom */
+    border-bottom: 2px solid transparent; /* Set an initial transparent border */
+}
+.menu-list li:hover {
+    border-bottom: 2px solid #ffffff;
+}
+.main-text {
+    margin-top: 198px;
+    width: 920px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.timer-wrapper {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+}
+.timer {
+    background: #726868;
+    padding: 20px 30px;
+    text-align: center;
+}
+.timer .timer-numbers {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.timer .timer-letters {
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgb(230, 229, 229);
 }
