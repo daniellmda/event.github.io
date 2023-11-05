@@ -92,11 +92,11 @@ a {
     gap: 56px;
     transition: all 0.5s ease-out;
 }
-.menu-list li {
+nav a {
     transition: border-bottom 0.3s ease; 
     border-bottom: 2px solid transparent; 
 }
-.menu-list li:hover {
+nav a:hover {
     border-bottom: 2px solid #ffffff;
 }
 .main-text {
@@ -110,6 +110,7 @@ a {
     margin-top: 70px;
     display: flex;
     gap: 30px;
+    list-style-type: none;
 }
 .timer {
     background: #726868;
@@ -132,4 +133,7 @@ a {
 }
 .header-footer__content {
     padding-top: 43px;
+}
+input {
+    color: #b31bb6;
 }
