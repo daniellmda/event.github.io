@@ -359,4 +359,26 @@
    .easystart {
     padding-bottom: 200px;
    }
-
+   .gain-section h2 {
+    text-align: center;
+   }
+   .wrapper-gain {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    gap: 15px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+   }
+   .gain {
+    width: 400px;
+    text-align: center;
+   }
+   .gain .grey {
+    padding-top: 30px;
+   }
+   .gain h3 {
+    padding-top: 30px;
+    font-size: 24px;
+   }
