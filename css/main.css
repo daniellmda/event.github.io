@@ -137,7 +137,6 @@
         gap: 30px;
         list-style-type: none;
     }
-
     .timer {
         background: #726868;
         padding: 20px 30px;
@@ -387,8 +386,8 @@
    }
    .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 coloane cu lățime egală */
-    grid-template-rows: repeat(2, 150px); /* 2 linii cu înălțime de 150px fiecare */ /* Spațiu între celule */
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, 150px); 
   }
 
   .grid-item {
