@@ -382,3 +382,25 @@
     padding-top: 30px;
     font-size: 24px;
    }
+   .partners .start {
+    margin-top: 0;
+   }
+   .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 coloane cu lățime egală */
+    grid-template-rows: repeat(2, 150px); /* 2 linii cu înălțime de 150px fiecare */ /* Spațiu între celule */
+  }
+
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(100, 100, 104, 0.3);
+    border-bottom: 1px solid rgba(100, 100, 104, 0.3);
+  }
+  .grid-nob {
+    border-right: 0;
+  }
+  .grid-nobb {
+    border-bottom: 0;
+  }
