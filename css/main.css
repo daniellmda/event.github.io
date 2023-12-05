@@ -174,8 +174,6 @@
 
     }
 
-    .fix {}
-
     .grey {
         opacity: 0.4;
     }
@@ -358,7 +356,6 @@
         background-color: #726868;
         height: 80px;
         background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
-        width: ;
     }
 
     .boxtwo {
@@ -440,6 +437,4 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-    }
-    .wrapper-speakers img {
     }
