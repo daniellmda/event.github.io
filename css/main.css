@@ -436,3 +436,10 @@
     .grid-nobb {
         border-bottom: 0;
     }
+    .wrapper-speakers {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .wrapper-speakers img {
+    }
