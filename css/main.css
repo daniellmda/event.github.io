@@ -3,6 +3,10 @@
         padding: 0;
         margin: 0;
     }
+    html {
+        scroll-behavior: smooth;
+        zoom: 90%;
+    }
 
     body {
         color: #fff;
@@ -440,9 +444,7 @@
     .start {
         padding-bottom: 115px;
     }
-    .wrapper-speakers img {
-        border-radius: 190px;
-    }
+
     .speaker h3 {
         font-size: 24px;
         padding-top: 40px;
@@ -458,4 +460,35 @@
         flex-direction: column;
         text-align: center;
         gap: 15px;
+    }
+    .wrapper-schedule {
+        width: 86%;
+        margin: 0 auto;
+    }
+    .agenda {
+        background-color: #7C6AFA;
+        text-align: center;
+        border-radius: 5px;
+        padding-bottom: 15px;
+
+    }
+    .agenda h4 {
+        padding: 15px 0;
+    }
+    .agenda-with {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+        align-items: center;
+        background-color: rgba(100, 100, 104, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .agenda-with div {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .schedule-speaker {
+        width: 75%;
+        border-radius: 75px;
     }
