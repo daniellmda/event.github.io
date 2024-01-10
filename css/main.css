@@ -14,14 +14,7 @@
         background: url('../img/bgc (1).png');
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    a {
+    h1, h2, h3, h4, h5, h6, p, a {
         margin: 0;
     }
 
@@ -437,4 +430,32 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+    .image {
+        max-width: 100px;
+        min-width: 100px;
+      
+        max-height: 100px;
+    }
+    .start {
+        padding-bottom: 115px;
+    }
+    .wrapper-speakers img {
+        border-radius: 190px;
+    }
+    .speaker h3 {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+    .speaker button {
+        margin: 0 auto;
+        background: none;
+        border: 2px solid #fff;
+        margin-top: 25px;
+    }
+    .speaker {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
     }
