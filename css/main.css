@@ -421,6 +421,7 @@
         justify-content: center;
         border-right: 1px solid rgba(100, 100, 104, 0.3);
         border-bottom: 1px solid rgba(100, 100, 104, 0.3);
+
     }
 
     .grid-nob {
@@ -482,8 +483,9 @@
         align-items: center;
         background-color: rgba(100, 100, 104, 0.3);
         border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 1px;
     }
-    .agenda-with div {
+    .agenda-with-div {
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -492,3 +494,34 @@
         width: 75%;
         border-radius: 75px;
     }
+    
+    .flex {
+        display: flex;
+        gap: 15px;
+    }
+
+    .speaker-title {
+        color: #b31bb6;
+        font-weight: 700;
+    }
+    .footer-title {
+        text-align: center;
+        margin: 0 auto;
+    }
+    footer .start {
+        flex-direction: column;
+    }
+    .contacts {
+        margin: 0 auto;
+        text-align: center;
+    }
+    footer input {
+        height: 45px;
+        width: 355px;
+        border-radius: 50px;
+        opacity: 0.25;
+        padding-left: 15px;
+        font-weight: 700;
+        color:rgb(153, 153, 223);
+    }
+    
