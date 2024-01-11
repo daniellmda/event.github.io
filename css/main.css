@@ -514,6 +514,9 @@
     .contacts {
         margin: 0 auto;
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     footer input {
         height: 45px;
@@ -522,6 +525,38 @@
         opacity: 0.25;
         padding-left: 15px;
         font-weight: 700;
-        color:rgb(153, 153, 223);
+        color:rgb(255, 103, 103);
+
+
+
     }
-    
+    .footer-start {
+        padding-bottom: 60px;
+    }
+    .contacts .btn {
+        margin-left: 15px;
+
+
+    }
+    .media {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .map {
+        padding-top: 60px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    .final-future {
+        padding-top: 25px;
+        border-top: 2px solid grey;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .final-future p {
+        font-weight: 700;
+    }
