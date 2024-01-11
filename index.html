@@ -399,13 +399,22 @@
 
     </ul>
 </div>
-  <script>
-    const button = document.querySelector('.burger');
-const modal = document.querySelector('.modal');
-button.addEventListener('click', function () {
-    modal.classList.toggle('hidden');
-});
-  </script>
+<script>
+  const button = document.querySelector('.burger');
+  const modal = document.querySelector('.modal');
+  const isInsideModal = (target) => {
+      return modal.contains(target);
+  };
+  button.addEventListener('click', function () {
+      modal.classList.toggle('hidden');
+  });
+  document.body.addEventListener('click', function (event) {
+      if (!isInsideModal(event.target) && !button.contains(event.target)) {
+          modal.classList.add('hidden');
+      }
+  });
+  
+</script>
 </body>
 
 </html>
