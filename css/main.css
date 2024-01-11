@@ -90,6 +90,10 @@
         text-align: center;
         transition: all 0.7s ease-in-out;
     }
+    .btn-modal {
+        margin: 0 auto;
+        
+    }
 
     .btn:hover {
         background-color: #be9be6;
@@ -211,7 +215,7 @@
         display: flex;
         gap: 20px;
         align-items: center;
-        margin-top: 243px;
+        margin-top: 150px;
     }
 
     .invites2 {
@@ -602,10 +606,10 @@
         display: none;
       }
     
-/* 992px - 1200px */
+/* 992px - 1330px */
 @media screen and (max-width: 1330px) {
     .container {
-        width: auto;
+        width: 90%;
     }
     .bar {
         flex-direction: column;
@@ -620,9 +624,14 @@
         width: 100%;
         height: 6px;
     }
+    .timer-wrapper {
+    
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
  
 }
-
+   
 /* 768px - 992px */
 @media screen and (max-width: 992px) {
     .container {
@@ -632,11 +641,11 @@
         flex-direction: column;
     }
     .main-text {
-        max-width: 75%;
+        max-width: 100%;
     }
     
-    .timer-wrapper {
-        flex-direction: column;
+    #navbar nav {
+        gap: 15px;
     }
 
     .timer {
@@ -666,6 +675,9 @@
     .places, .places_second {
         margin-right: 0;
     }
+    .speaker .btn {
+        margin-bottom: 15px;
+    }
 }
 
 /* 576px - 768px */
@@ -682,7 +694,9 @@
     .burger {
         display: block; 
     }
-
+    .img {
+        max-width: 500px;
+    }
 }
 
 /* 320px - 576px */
@@ -691,14 +705,7 @@
         width: 90%;
     }
 
-    .timer-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .timer {
-        margin-bottom: 20px;
-    }
 
     .header-footer__content {
         flex-direction: column;
@@ -732,5 +739,37 @@
     .main-text {
         margin-top: 20px;
         font-size: 36px;
+    }
+    .img {
+        max-width: 200px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .wrapper-gain {
+        flex-direction: column;
+        align-items: center;
+    }
+    .comparision-element:nth-child(1) {
+        display: none;
+    }
+    .comparision-element:nth-child(2) {
+        display: none;
+    }
+    .comparision-paragraph:nth-child(1) {
+        display: none;
+    }
+    .comparision-paragraph:nth-child(2) {
+        display: none;
+    }
+    .gain {
+        max-width: 80%;
+    }
+    .wrapper-main {
+        text-align: center;
+    }
+    iframe {
+        max-width: 200px;
+        max-height: 300px;
     }
 }

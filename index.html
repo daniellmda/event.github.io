@@ -10,24 +10,25 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="home">
     <div class="container">
       <div id="navbar">
         <a href="#">
           <img src="https://prescottmd.w3spaces.com/img/logo.svg" alt="Logo" class="logo">
         </a>
         <nav id="nav">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Speakers</a>
-          <a href="#">Schedule</a>
-          <a href="#">Partners</a>
-          <a href="#">Contact</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#partners">Partners</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#contact">Contact</a>
         </nav>
-        <a href="ticket.html" class="button">Buy ticket</a>
+        <a href="#" class="button">Buy ticket</a>
        <img src="img/icons8-hamburger-menu-50 (1).png" alt="" class="burger">
       </div>
       <h1 class="main-text">The first IT event<br>in Riscani</h1>
@@ -97,11 +98,11 @@
       </div>
     </div>
   </section>
-  <section>
+  <section id="about">
     <div class="container">
       <div class="wrapper-main">
         <div class="image-main">
-          <img src="img/Group 8.png" alt="">
+          <img src="img/Group 8.png" alt="" class="img">
         </div>
         <div class="text-main">
           <h2>About event
@@ -220,7 +221,7 @@
       </div>
     </div>
   </section>
-  <section class="partners">
+  <section class="partners" id="partners">
     <div class="container">
       <div class="start">
         <img src="img/icon-heading.png" alt="">
@@ -241,7 +242,7 @@
       </div>
     </div>
   </section>
-  <section class="speakers">
+  <section class="speakers" id="speakers">
     <div class="container">
       <div class="start">
         <img src="img/icon-heading.png" alt="">
@@ -269,7 +270,7 @@
       </div>
     </div>
   </section>
-  <section class="schedule">
+  <section class="schedule" id="schedule">
     <div class="container">
       <div class="start">
         <img src="img/icon-heading.png" alt="">
@@ -348,7 +349,7 @@
     </div>
 
   </section>
-  <footer>
+  <footer id="contact">
     <div class="container">
 <div class="start footer-start">
         <h2 class="footer-title">More events in future</h2>
@@ -365,7 +366,7 @@
         <a href=""><img src="img/Frame 11.png" alt=""></a>
       </div>
       <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.4809567629748!2d27.5620780111006!3d47.95074611383255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ccabc336bb2a03%3A0x72e5d06161672335!2sSec%C8%9Bia%20administrativ-militara%20(l.d.p.%20R%C3%AE%C8%99cani)!5e0!3m2!1sru!2s!4v1704965615254!5m2!1sru!2s"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2672.2582043891853!2d27.561175811935033!3d47.950730871103424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ccabc336bb2a03%3A0x72e5d06161672335!2sSec%C8%9Bia%20administrativ-militara%20(l.d.p.%20R%C3%AE%C8%99cani)!5e0!3m2!1sru!2s!4v1704997874618!5m2!1sru!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="final-future">
         <p>2024 © Turcanu Daniel. All Rights Reserved.</p>
@@ -376,21 +377,26 @@
   </footer>
   <div class="modal hidden">
     <ul>
-        <a href='/'>
+        <a href='#home'>
             <li>Home</li>
         </a>
-        <a href='/html/artists'>
-            <li>Artists</li>
+        <a href='#about'>
+            <li>About</li>
         </a>
-        <a href='/html/dates'>
-            <li>Dates</li>
+        <a href='#partners'>
+            <li>Partners</li>
         </a>
-        <a href='/html/videos'>
-            <li>Video</li>
+        <a href='#speakers'>
+            <li>Speakers</li>
         </a>
-        <a href='/html/login'>
-            <li class="account">Accoutnt</li>
+        <a href='#schedule'>
+            <li>Schedule</li>
         </a>
+        <a href='#contact'>
+          <li>Contact</li>
+      </a>
+      <a href="#" class="btn btn-modal">Buy ticket</a>
+
     </ul>
 </div>
   <script>
