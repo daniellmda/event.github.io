@@ -15,7 +15,7 @@
         line-height: 1.5;
         font-size: 16px;
         background-color: rgb(153, 153, 223);
-        background: url('../img/bgc (1).png');
+        background: url('../img/bgc (1).png') no-repeat center top / cover;
     }
 
     h1, h2, h3, h4, h5, h6, p, a {
@@ -560,3 +560,127 @@
     .final-future p {
         font-weight: 700;
     }
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: auto;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .wrapper-main {
+        flex-direction: column;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar nav {
+        margin-top: 20px;
+    }
+
+    #navbar a.button,
+    .btn {
+        margin: 20px 0;
+    }
+
+    .timer-wrapper {
+        flex-direction: column;
+    }
+
+    .timer {
+        margin-bottom: 20px;
+    }
+
+    .header-footer__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-info__element {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .progress-elements {
+        margin-left: 0;
+    }
+
+    .bar {
+        flex-direction: column;
+    }
+
+    .bar-occupied {
+        width: 100%;
+        height: 6px;
+    }
+
+    .bar-available {
+        width: 100%;
+        height: 6px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .timer-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .timer {
+        margin-bottom: 20px;
+    }
+
+    .header-footer__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-info__element {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .progress-elements {
+        margin-left: 0;
+    }
+
+    .bar {
+        flex-direction: column;
+    }
+
+    .bar-occupied {
+        width: 100%;
+        height: 6px;
+    }
+
+    .bar-available {
+        width: 100%;
+        height: 6px;
+    }
+
+    .main-text {
+        margin-top: 20px;
+        font-size: 36px;
+    }
+}
