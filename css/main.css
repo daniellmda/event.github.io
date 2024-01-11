@@ -775,4 +775,12 @@
     .start {
         width: 80%;
     }
+    h2 {
+        font-size: 40px;
+    }
+    .footer-start {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 115px;
+    }
 }
