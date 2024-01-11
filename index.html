@@ -19,7 +19,7 @@
         <a href="#">
           <img src="https://prescottmd.w3spaces.com/img/logo.svg" alt="Logo" class="logo">
         </a>
-        <nav class="nav">
+        <nav id="nav">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Speakers</a>
@@ -28,6 +28,7 @@
           <a href="#">Contact</a>
         </nav>
         <a href="ticket.html" class="button">Buy ticket</a>
+       <img src="img/icons8-hamburger-menu-50 (1).png" alt="" class="burger">
       </div>
       <h1 class="main-text">The first IT event<br>in Riscani</h1>
       <div class="timer-wrapper">
@@ -373,6 +374,32 @@
 
 
   </footer>
+  <div class="modal hidden">
+    <ul>
+        <a href='/'>
+            <li>Home</li>
+        </a>
+        <a href='/html/artists'>
+            <li>Artists</li>
+        </a>
+        <a href='/html/dates'>
+            <li>Dates</li>
+        </a>
+        <a href='/html/videos'>
+            <li>Video</li>
+        </a>
+        <a href='/html/login'>
+            <li class="account">Account</li>
+        </a>
+    </ul>
+</div>
+  <script>
+    const button = document.querySelector('.burger');
+const modal = document.querySelector('.modal');
+button.addEventListener('click', function () {
+    modal.classList.toggle('hidden');
+});
+  </script>
 </body>
 
 </html>
